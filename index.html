@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div id="h2">
+        <h2>Student Registration</h2></div>
+        <form id = "registrationForm">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required pattern="[A-Za-z\s]{2,35}" title="Name should be 2 to 35 characters long and contain only letters and spaces." > 
+            <br>
+            
+            <label for="age">Student Age:</label>
+            <input type="text" id="age" name="age" placeholder="Age" max="35" required min="25" pattern="[A-Za-z\s]{2,35}"> 
+            <br>
+            <label for="amjor" >Magor:</label>
+            <select id="major" name="major" >
+                <option value="computer science">Computer Science</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Mathematics">Mathematics</option>
+            </select>
+            <br>
+            <br>
+            <fieldset id="languages">
+                <legend>Preferred Programming Languages:</legend>
+                <div id="python">
+                <input type="checkbox" id="python" name="languages" value="Python">
+                <label for="python">Python</label>
+                </div>
+                <div id="javasecript">
+                <input type="checkbox" id="javascript" name="languages" value="javascript">
+                <label for="javascript">Javascript</label>
+                </div>
+                <div id="csharp">
+                <input type="checkbox" id="csharp" name="languages" value="csharp">
+                <label for="csharp">Csharp</label>
+                </div>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <br>
+        <div id="h3"><h3>Registered Students</h3></div>
+        <div id="studentsList"></div>
+       
+        
+    </body>
+</html>
