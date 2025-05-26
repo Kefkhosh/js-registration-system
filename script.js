@@ -1,8 +1,8 @@
 let students = [];
 
-document.getElementById("registrationForm").addEventListener("submit", function(event) {
+document.getElementById("registrationForm").addEventListener("submit", function (event) {
     event.preventDefault();
-    
+
     let name = document.getElementById("name").value.trim();
     let age = parseInt(document.getElementById("age").value);
     let major = document.getElementById("major").value;

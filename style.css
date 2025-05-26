@@ -1,19 +1,19 @@
-
-  body {
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #cbe8ec;
     margin: 20px;
     padding: 20px;
 }
 
-h2, h3 {
-    display:inline;
-    align-self:center;
+h2,
+h3 {
+    display: inline;
+    align-self: center;
     text-align: center;
     background: linear-gradient(to right, #6a11cb, #2575fc);
     text-align: center;
     color: rgb(255, 255, 255);
-    margin:  auto;
+    margin: auto;
     padding: 14px;
 }
 
@@ -31,7 +31,8 @@ label {
     margin: 10px 0 5px;
 }
 
-input, select {
+input,
+select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -40,9 +41,9 @@ input, select {
 }
 
 fieldset {
-   
+
     display: inline;
-   
+
     border: auto solid #fff;
     margin: auto;
     padding: auto;
@@ -61,7 +62,7 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background-color: linear-gradient(to right, #6a11cb, #2575fc);
     opacity: 0.8;
 }
 
@@ -69,32 +70,45 @@ button:hover {
     background: #fff;
     padding: 10px;
     border-radius: 6px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
+
 div {
-    display: grid;
-    margin: bottom -20px;;
+    display: flex;
+    text-align: center;
+    margin: bottom -20px;
+    ;
     font: menu;
     position: relative;
     margin: 20px;
     padding: auto;
-  
+
 }
-h2 , registrationForm {
+
+h2,
+registrationForm {
     margin: 0 auto;
-  
-    padding: px ;
+
+    padding: px;
 }
+
 #h2 {
-   margin: auto;
+    margin: auto;
+    background-color: #cbe8ec;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
 }
-#python { 
+
+#python {
     display: inline-block;
     color: green;
     font-style: italic;
     cursor: pointer;
 
 }
+
 #javasecript {
     display: inline-block;
     color: blue;
@@ -102,37 +116,56 @@ h2 , registrationForm {
     cursor: pointer;
 
 }
+
 #csharp {
- display: inline-block;
- color: black;
- font-style: italic;
- cursor: pointer;
+    display: inline-block;
+    color: black;
+    font-style: italic;
+    cursor: pointer;
 
 }
+
 #languages {
     font-style: italic;
-    margin: px
-    padding: 0px;
-    padding: 8px;   
+    margin: px padding: 0px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 30px;
     background: #f9f9f9;
     align-items: center;
-    display: flex;  
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
     margin: 20px auto;
     max-width: 600px;
-    
+
 }
+
 p {
     text-align: center;
     font-size: 18px;
     color: #333;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px;
     background-color: #white;
-    padding: 10px;
+    padding: 0px;
+    border-radius: 6px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif font-size: 16px;
+}
+
+#major {
+    display: inline-block;
+    color: #333;
+    font-style: italic;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 }
